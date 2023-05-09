@@ -1,0 +1,16 @@
+[package]
+name = "btc_utils"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bitcoincore-rpc-json = "0.16.0"
+bs58 = { version="0.4.0", features=["check"] }
+chrono = "0.4.24"
+colored = "2"
+hex = "0.4.3"
+ssh2 = "0.9"
+serde_json = "1.0.95"
+
